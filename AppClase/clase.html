@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+<div id="datos">
+
+    <div class="par">
+        <label for="txtNombre">Nombre:</label>
+        <input type="text" id="txtNombre"/>
+    </div>
+
+    <div class="par">
+        <label for="numX">X:</label>
+        <input type="number" id="numX"/>
+    </div>
+
+    <div class="par">
+        <label for="numY">Y:</label>
+        <input type="number" id="numY"/>
+    </div>
+
+    <div class="par">
+        <label for="numW">Width:</label>
+        <input type="number" id="numW"/>
+    </div>
+
+    <div class="par">
+        <label for="numH">Height:</label>
+        <input type="number" id="numH"/>
+    </div>
+
+    <div class="par">
+        <label for="txtColor">Color:</label>
+        <input type="color" id="txtColor"/>
+    </div>
+
+    <button type="button" id="buttOk">OK</button>
+
+</div>
+<div id="canvas">
+    <canvas id="dibujo" width="600" height="600"></canvas>
+    <button type="button" id="buttRefrescar">Refrescar</button>
+</div>
+
+
+    <script src="scripts/clase.js"></script>
+    <script src="scripts/canvas.js"></script>
+</body>
+</html>

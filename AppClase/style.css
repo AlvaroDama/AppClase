@@ -1,0 +1,21 @@
+﻿body {
+}
+
+.par label {
+    float: left;
+    
+}
+
+.par input {
+    float: right;
+    
+}
+
+.par {
+    clear: both;
+}
+
+#datos {
+    
+    width: 300px;
+}
